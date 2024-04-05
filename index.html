@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="style.css" rel="stylesheet"/>
+<title>
+Mısroşu´ma &#128157;
+</title>
+<style>
+
+.loader {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background-color: #111;
+background-image: url("img/loading.gif");
+flex-direction: column;
+background-position:center;
+background-repeat: no-repeat;
+}
+
+</style>
+</head>
+<body style="font-family:Verdana">
+
+<div class="loader"></div>
+<script>
+window.onload = function()
+{$('.loader').fadeOut();}
+</script>
+
+<img id="play" onclick="toggleAudio()" src="src/play.png" class="img-fluid">
+<audio id='player' src='src/1.mp3'></audio>
+<img id="pause" onclick="toggleAudio()" src="src/pause.png" class="img-fluid">
+<span style="float:right">Okurken Dinle:</span>
+
+<br>
+<br>
+
+<div id="s">
+<div id="m3" class="outer"></div>
+<br>
+<div id="m4" class="outer"></div>
+<br>
+<div id="m5" class="outer"></div>
+</div>
+<div id="l">
+<div id="m2" class="outer"></div>
+<br>
+<div id="m1" class="outer"></div>
+<br>
+<div id="m6" class="outer"></div>
+</div>
+
+<center>
+<span id="not">Hislerin En Güzeline...</span>
+<br><br>
+<span id="not">Her şeyden önce nice mutlu beraber yıllarımız olmasına.</span>
+<br><br>
+<span id="not">Tanışalı çok kısa bir süre olmasına rağmen sana aşırı bağlandım. İlk buluşmamızda o kadar güzel şeyler hissetmeye başladım ki şaşırmıştım. İlk defa böyle bir şeyler hissetmeye başlamıştım. Sevgini,ilgini ve şevkatini o kadar fazla hissettiriyordun ki aşık olmamak elde değildi. Sana o kadar saf aşık oldum'ki gözlerine her baktığımda sana olan aşkım dahada artması söz konusuydu.   </span>
+<br><br>
+<span id="not">Mısroşum seni sevmek... Seni sevmek papatyaların hangi mevsim olursa olsun açmak için bahane üretmesi gibi bir nevi...</span>
+<br><br>
+<span id="not">seni sevmek ciddi bir mesele hayatımın anlamı, güzel sevemez kimse seni benim gibi. Canımı acıt, ben yine sana gelirim. Hissettiklerimin şarkısı sadece senin sesin. Ve ben bu şarkıyı yalnızca senin sesinden dinlerim.</span>
+<br><br>
+<span id="not">Parmağına kıymık batsa benim canım acır. Seni sevmenin nasıl bir duygu olduğunu sana açıklayamam ben. Ama sana sana sevginin en güzel halini her gün sana yeniden aşık olarak hissettirebilirim. </span>
+<br><br>
+<span id="not"> Ve tüm bunları hissetmeye doyamaz kalbin aşkım.</span>
+<br><br>
+<span id="not">Seni düşünmek güzel şey, seni düşünmek ümitli şey, dünyanın en güzel sesinden en güzel şarkıyı dinlemek gibi birşey.</span>
+<br><br>
+<span id="not">💚 Kocacığın'dan  Sana 💚</span>
+<br>
+<span id="not">09.03.2024</span>
+</center>
+
+<script src="src/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>
